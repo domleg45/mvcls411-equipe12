@@ -5,7 +5,6 @@ let currentVideoIndex = 0;
 let volume;
 let ismute = false;
 const muteToggle = document.getElementById("mute");
-const applicationID = "3DDC41A0";
 const videoList = [
   "https://transfertco.ca/video/DBillPrelude.mp4",
   "https://transfertco.ca/video/DBillSpotted.mp4",
@@ -125,7 +124,7 @@ function loadMedia(videoUrl) {
 function initializeCastApi() {
   // Set up Cast SDK options
   const castOptions = new cast.framework.CastOptions();
-  castOptions.receiverApplicationId = applicationID;
+  castOptions.receiverApplicationId = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID;
 
   // Initialize CastContext with the CastOptions
   const castContext = cast.framework.CastContext.getInstance();
