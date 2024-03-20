@@ -1,0 +1,22 @@
+body {
+    margin: 20%; /* Marge en pourcentage */
+}
+
+.container-md {
+
+      background: black;
+      border-radius:40px;
+      text-align: center;
+      color: white;
+      padding: 30px;
+      width: max-content;
+      justify-content: center;
+      align-items: center;
+      
+}
+
+.btn {
+    margin: 40px 20px 40px;
+    padding: 0px 20px 0px;
+
+}
