@@ -14,3 +14,4 @@
 
 - Nettoyage des codes inutiles
 - Changement du nom de la manette (bootstrap inutile) 
+- Btn power fonctionnel
