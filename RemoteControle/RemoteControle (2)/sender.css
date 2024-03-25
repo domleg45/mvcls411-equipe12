@@ -8,15 +8,16 @@ body {
       border-radius:40px;
       text-align: center;
       color: white;
-      padding: 30px;
+      padding: 20px;
       width: max-content;
       justify-content: center;
       align-items: center;
       
 }
 
+
 .btn {
-    margin: 40px 20px 40px;
-    padding: 0px 20px 0px;
+    margin: 40px 15px 40px;
+    padding: 10px 20px 10px;
 
 }
