@@ -6,7 +6,6 @@ let currentVideoUrl;
 let updateInterval;
 let niveau = 1;
 const seekSlider = document.getElementById('seekSlider');
-
 const currentTimeElement = document.getElementById('currentTime');
 const totalTimeElement = document.getElementById('totalTime');
 const applicationID = "3DDC41A0";
@@ -18,7 +17,7 @@ const videoList = [
 ];
 
 document.getElementById("connectButton").addEventListener("click", () => {
- initializeApiOnly();
+  initializeApiOnly();
 
 });
 
@@ -44,16 +43,17 @@ document.getElementById("prevBtn").addEventListener("click", () => {
 
 document.getElementById("return").addEventListener("click", () => {
   if (media) {
-    if(isPlaying){
-    currentVideoIndex = (currentVideoIndex.length === 0) % videoList.length;
-    loadMedia(videoList[currentVideoIndex]);
-  } else {
-    currentVideoIndex = (currentVideoIndex.length === 0) % videoList.length;
-    loadMedia(videoList[currentVideoIndex]);
+    if (isPlaying) {
+      currentVideoIndex = (currentVideoIndex.length === 0) % videoList.length;
+      loadMedia(videoList[currentVideoIndex]);
+    } else {
+      currentVideoIndex = (currentVideoIndex.length === 0) % videoList.length;
+      loadMedia(videoList[currentVideoIndex]);
 
 
+    }
   }
-}});
+});
 
 
 // document.getElementById("forW").addEventListener("click", () => {
@@ -108,9 +108,9 @@ function onMediaDiscovered(mediaItem) {
 function receiverListener(availability) {
   if (availability === chrome.cast.ReceiverAvailability.AVAILABLE) {
     document.getElementById("connectButton").style.display = "block";
-  } //else {
-  //   document.getElementById("connectButton").style.display = "none";
-  // }
+  } else {
+
+  }
 }
 
 
