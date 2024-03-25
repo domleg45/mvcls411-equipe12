@@ -12,6 +12,10 @@
 
 # Modification fait par : Aya
 
-- Nettoyage des codes inutiles
-- Changement du nom de la manette (bootstrap inutile) 
-- Btn power fonctionnel
+- Nettoyage des codes inutiles.
+- Changement du nom de la manette (bootstrap inutile)
+- Btn est fonctionnel.
+- L'affichage problématique
+    - Ce que je dois faire
+        - Arranger l'interface
+        - Ajouter de nouvelles fonctionnalités.
