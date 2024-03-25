@@ -9,14 +9,12 @@ body {
     border-radius: 40px;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 20px;
     position: fixed;
     width: max-content;
     top: 20px; 
     left: 20px;
-    display: flex;
-    display: block;
-
+    
 }
 
 
@@ -26,16 +24,18 @@ body {
 
 }
 
+
+
 #connectButton {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -15px;
 }
 
 #startBtn {   
     position: absolute;
     top: 0;
-    left: 100px; 
+    left: 210px; 
 }
 
 
