@@ -16,6 +16,6 @@
 - Changement du nom de la manette (bootstrap inutile)
 - Btn est fonctionnel.
 - L'affichage problématique
-    - Ce que je dois faire
-        - Arranger l'interface
-        - Ajouter de nouvelles fonctionnalités.
+# Ce que je dois faire
+- Arranger l'interface
+- Ajouter de nouvelles fonctionnalités.
