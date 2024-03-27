@@ -21,6 +21,7 @@ document.getElementById("connectButton").addEventListener("click", () => {
 });
 
 
+
 document.getElementById("startBtn").addEventListener("click", () => {
   if (session) {
     loadMedia(videoList[currentVideoIndex]);

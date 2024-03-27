@@ -8,14 +8,27 @@ body {
       color: white;
       padding: 30px;
       width: max-content;
-      bottom: 20px;
-      left: 20px;
+      justify-content: center;
+      position:relative;
+
 }
 
-.btn{
+.btn {
     margin: 40px 20px 40px;
     padding: 0px 20px 0px;
 
+}
+
+
+
+#connectButton {
+    top: 0;
+    left: 0;
+}
+
+#startBtn {   
+    top: 0;
+    left: 210px; 
 }
 
 
