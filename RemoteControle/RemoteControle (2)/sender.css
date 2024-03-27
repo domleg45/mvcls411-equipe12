@@ -5,35 +5,17 @@ body {
 .container-md {
       background: black;
       border-radius:40px;
-      text-align: center;
       color: white;
       padding: 30px;
       width: max-content;
-      justify-content: center;
-      align-items: center;
-      position: relative;
       bottom: 20px;
       left: 20px;
 }
 
-.btn {
+.btn{
     margin: 40px 20px 40px;
     padding: 0px 20px 0px;
 
-}
-
-
-
-#connectButton {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#startBtn {   
-    position: absolute;
-    top: 0;
-    left: 210px; 
 }
 
 

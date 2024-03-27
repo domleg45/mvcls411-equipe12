@@ -16,11 +16,8 @@ const videoList = [
   // Add more video URLs as needed
 ];
 
-
-
 document.getElementById("connectButton").addEventListener("click", () => {
   initializeApiOnly();
-
 });
 
 
@@ -111,7 +108,6 @@ function receiverListener(availability) {
   if (availability === chrome.cast.ReceiverAvailability.AVAILABLE) {
     document.getElementById("connectButton").style.display = "block";
   } else {
-
   }
 }
 
