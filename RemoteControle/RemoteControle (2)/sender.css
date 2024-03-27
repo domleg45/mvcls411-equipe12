@@ -1,16 +1,17 @@
 body {
-    margin: 10%;
+    margin: 20%;
 }
 
 .container-md {
-      background: black;
-      border-radius:40px;
-      color: white;
-      padding: 30px;
-      width: max-content;
-      justify-content: center;
-      position:relative;
-
+    background: black;
+    border-radius:40px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -19,16 +20,5 @@ body {
 
 }
 
-
-
-#connectButton {
-    top: 0;
-    left: 0;
-}
-
-#startBtn {   
-    top: 0;
-    left: 210px; 
-}
 
 
